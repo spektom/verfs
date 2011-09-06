@@ -22,7 +22,7 @@ Module can be loaded using:
 
   `modprobe verfs`
 
-Once module is loaded, every file remove operation will create a backup copy:
+Once module is loaded, every file deletion operation will create a backup copy:
 
 <pre>
   $ touch new
