@@ -1,6 +1,6 @@
 VerFS
 =====
-VerFS - simple versioning file system as Linux kernel module.
+Simple versioning file system as Linux kernel module.
 
 Requirements:
 -------------
@@ -12,25 +12,26 @@ Usage
 ------
 To compile the module, run:
 
-  make
+  `make`
 
 To install, run:
 
-  make install
+  `make install`
 
 Module can be loaded using:
 
-  modprobe verfs
+  `modprobe verfs`
 
 Once module is loaded, every file remove operation will create a backup copy:
 
+<code>
   touch new
   rm new
   ls -l new*
-
-    new#1
+  new#1
+</code>
 
 To unload module, run:
 
-  rmmod verfs
+  `rmmod verfs`
 
