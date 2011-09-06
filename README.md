@@ -24,12 +24,12 @@ Module can be loaded using:
 
 Once module is loaded, every file remove operation will create a backup copy:
 
-<code>
-  touch new
-  rm new
-  ls -l new*
+<pre>
+  $ touch new
+  $ rm new
+  $ ls new*
   new#1
-</code>
+</pre>
 
 To unload module, run:
 
