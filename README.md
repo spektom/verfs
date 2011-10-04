@@ -6,7 +6,7 @@ Requirements:
 -------------
 
 1. Kernel >= 2.6.7
-2. Kernel sources placed in /usr/src/linux-<kernel-version>
+2. Kernel sources placed in /usr/src/linux-&lt;version&gt;
 3. GCC
 
 Usage
