@@ -2,6 +2,13 @@ VerFS
 =====
 Simple versioning file system as Linux kernel module.
 
+
+How this works
+---------------
+
+This Kernel module patches *sys_call_table* by replacing _open_ and _unlink_ system calls with customized versions.
+
+
 Requirements:
 -------------
 
